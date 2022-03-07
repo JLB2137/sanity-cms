@@ -49,8 +49,8 @@ export default {
         }]
     },
       {
-        name: 'bio',
-        title: 'Bio',
+        name: 'description',
+        title: 'Description',
         type: 'array',
         of: [
           {
@@ -65,7 +65,8 @@ export default {
     preview: {
       select: {
         title: 'name',
-        media: 'image',
+        subtitle: 'binomial',
+        media: 'images.0',
       },
     },
   }
