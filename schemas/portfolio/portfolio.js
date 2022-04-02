@@ -9,6 +9,15 @@ export default {
         type: 'string',
       },
       {
+        name: 'slug',
+        title: 'Slug',
+        type: 'slug',
+        options: {
+          source: 'name',
+          maxLength: 96,
+        },
+      },
+      {
         name: 'completionDate',
         title: 'Completion Date',
         type: 'date',
@@ -39,8 +48,7 @@ export default {
               options: {
                   isHighlighted: true // <-- make this field easily accessible
               }
-          }
-          ]
+            }]
         }]
       },
       {
