@@ -44,7 +44,15 @@ export default {
                 options: {
                     isHighlighted: true // <-- make this field easily accessible
                 }
-            }
+            },
+            {
+              name: 'imageName',
+              title: 'Image Name',
+              type: 'string',
+              options: {
+                  isHighlighted: true // <-- make this field easily accessible
+              }
+          }
             ]
         }]
     },
